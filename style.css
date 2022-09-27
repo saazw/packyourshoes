@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: rgb(51, 48, 48);
+
+}
+
+
+.li-parent{
+    display: flex;
+    text-decoration: none;
+    font-style: none;
+    padding: 25px 0;
+    list-style: none;
+
+}
+
+
+.li-parent li{
+   text-align: center;
+   margin-left: 50px;
+   color: rgb(255, 255, 255);
+   font-family: 'Quicksand', sans-serif;
+   cursor: pointer;
+}
+
+
+.logo h4{
+    padding: 20px;
+    color: yellow;
+     font-family: 'Bebas Neue', cursive;
+    font-size: larger;
+}
+
+
+
+.li-parent li:hover{
+    color: rgb(159, 5, 159);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(159, 5, 159);
+}
+
+
+
+#header{
+    /* background-image: url(./img/pexels-aleksandar-pasaric-1820770.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* 
+.one  .two  .three img{
+    height: 100px;
+} */
+
+
+
+.parentdiv{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.parentdiv img-transition{
+    transform: scale(1.5);
+    
+}
+
+
+.one img{
+    box-shadow: 1px 0px 32px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 32px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.two img{
+    box-shadow: 1px 0px 32px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 32px 0px rgba(0,0,0,0.75);
+}
+
+
+
+    
+.three img{
+    box-shadow: 1px 0px 32px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 32px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
